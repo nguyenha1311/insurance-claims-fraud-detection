@@ -38,7 +38,7 @@ A Logistic Regression model was trained as the baseline classifier.
 | **Recall** | Reasonable — model catches a meaningful portion of fraud cases |
 | **Precision** | Lower — some false positives present (acceptable at baseline) |
 | **ROC AUC** | Significantly above 0.5 — model has meaningful ability to distinguish fraud from legitimate claims |
-| **F1 Score** | Reflects the Precision-Recall trade-off; optimal threshold is below the default 0.5 |
+| **F1 Score** | Reflects the Precision-Recall trade-off, optimal threshold is below the default 0.5 |
 
 ### 5. Limitations & Next Steps
 - Logistic Regression assumes **linear decision boundaries**, which may not capture the complex patterns in this dataset.
