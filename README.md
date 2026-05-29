@@ -170,7 +170,7 @@ Deploy **Random Forest** or **XGBoost** as the primary fraud detection model bas
 
 ## Future Enhancements
 
-1. **Larger datasets:**:
+1. **Larger datasets:**
    - Validate the approach on a larger dataset to confirm these patterns hold up at scale.
 2. **Threshold tuning:** 
    - Adjust the classification threshold beyond the default 0.50 to optimize the precision-recall tradeoff for specific business requirements.
