@@ -168,6 +168,16 @@ Deploy **Random Forest** or **XGBoost** as the primary fraud detection model bas
 - Strong feature importance interpretability
 - Robust performance across all evaluation metrics
 
+## Future Enhancements
+
+1. **Larger datasets:**:
+   - Validate the approach on a larger dataset to confirm these patterns hold up at scale.
+2. **Threshold tuning:** 
+   - Adjust the classification threshold beyond the default 0.50 to optimize the precision-recall tradeoff for specific business requirements.
+3. **Model Improvements**:
+   - Deep learning approaches (neural networks, autoencoders)
+   - Ensemble stacking combining multiple model predictions
+   
 ## Notebook
 
 - [View the Analysis Notebook](./insurance_claims_fraud_detection.ipynb)
@@ -212,16 +222,6 @@ pip install pandas numpy seaborn matplotlib plotly scikit-learn imbalanced-learn
    ```
    Or open directly in VS Code with Jupyter extension
 5. **Run cells sequentially** to reproduce the analysis
-
-## Future Enhancements
-
-1. **Larger datasets:**:
-   - Validate the approach on a larger dataset to confirm these patterns hold up at scale.
-2. **Threshold tuning:** 
-   - Adjust the classification threshold beyond the default 0.50 to optimize the precision-recall tradeoff for specific business requirements.
-3. **Model Improvements**:
-   - Deep learning approaches (neural networks, autoencoders)
-   - Ensemble stacking combining multiple model predictions
 
 ## Author
 
